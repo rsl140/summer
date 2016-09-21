@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Resume of xiaosi">
+		<meta name="author" content="xiaosi">
+		<link rel="shortcut icon" href="favicon.ico">
+		<title>Summer Resume</title>
+		<!--Bootstrap css-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!--main style&script-->
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/smoothscroll.js"></script>
+		<script src="js/Chart.js"></script>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js></script>"
+			<script src="js/respond.min.js></script>"
+			<![endif]-->
+	</head>
+
+	<body data-spy="scroll" data-offset="0" data-target="#nav">
+
+		<div id="section-topbar">
+			<div id="topbar-inner">
+				<div class="container">
+					<div class="row">
+						<!--导航栏star-->
+						<div class="dropdown">
+							<ul id="nav" class="nav">
+								<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a>
+								</li>
+								<li class="menu-item"><a class="smoothScroll" href="#project" title="Project"><i class="icon-briefcase"></i></a>
+								</li>
+								<li class="menu-item"><a class="smoothScroll" href="#sills" title="Sills"><i class="icon-file"></i></a>
+								</li>
+								<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact me"><i class="icon-envelope"></i></a>
+								</li>
+							</ul>
+						</div>
+						<!--导航栏end -->
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+			</div>
+			<!--/ #topbar-inner -->
+		</div>
+		<!--/ #section-topbar -->
+
+		<div id="headerwrap">
+			<div class="container">
+				<div class="row centered">
+					<div class="col-lg-12">
+						<h1>Summer . Rao</h1>
+						<h3>Email | rsl140@qq.com</h3>
+					</div>
+					<!--/.col-lg-12 -->
+				</div>
+				<!--/.row -->
+			</div>
+			<!--/.container -->
+		</div>
+		<!--/.#headerwrap -->
+
+		<section id="about" name="about"></section>
+		<div id="intro">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>ABOUT</h5>
+					</div>
+					<div class="col-lg-6">
+						<p>Age:25</p>
+						<p>Hobby: Nunchaku、Harmonica</p>
+					</div>
+
+				</div>
+				<!--/.row -->
+			</div>
+			<!--/.container -->
+		</div>
+		<!--/ #intro -->
+
+		
+<section id="project" name="project"></section>
+		<!--工作经验 star -->
+		<div class="container desc">
+			<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PROJECT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p>
+						<t>网站程序员</t>
+						<br/> 武汉世科网络科技有限公司
+						<br/>
+					</p>
+					<p>
+						<more>根据项目需求利用html5编写网站前台以及使用SQL语句获取数据内容并通过.NET编写网站后台功能。现有上线产品：
+							<a target="_blank" href="http://www.fuxicao.com/">www.fuxicao.com</a>　
+							<a target="_blank" href="http://www.china-lawoffice.com/">www.china-lawoffice.com</a>
+						</more>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p>
+						<sm>2014年4月 - 2015年7月</sm>
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>
+						<t>软件测试</t>
+						<br/> 博彦科技(武汉分公司)[实习生]
+						<br/>
+					</p>
+					<p>
+						<more>在英文环境下执行测试用例并提交缺陷报告。</more>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p>
+						<sm>2013年8月 - 2014年1月</sm>
+					</p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>
+						<t>软件测试</t>
+						<br/> 成都中联信通[实习生]
+						<br/>
+					</p>
+					<p>
+						<more>1.利用python编辑脚本用来测试接口。2.部署测试平台的tomcat服务器，使用PL/SQL进行简单的数据操作。3.根据测试用例对Android、IOS中的产品进行验证并跟踪BUG，回归测试。对用例进行细节完善。</more>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p>
+						<sm>2013年5月 - 2013年7月</sm>
+					</p>
+				</div>
+			</div>
+			<!--/.row -->
+			<br>
+		</div>
+		<!--/.container -->
+		<!--工作经验end -->
+
+		<section id="sills" name="sills"></section>
+		<!--技能描述star -->
+		<div id="skillswrap">
+			<div class="container desc">
+				<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>Javascript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 50,
+										color:"#1abc9c"
+									},
+									{
+										value : 50,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="jquery" height="130" width="130"></canvas>
+						<p>Jquery</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("jquery").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="net" height="130" width="130"></canvas>
+						<p>.Net</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 60,
+										color:"#1abc9c"
+									},
+									{
+										value : 40,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("net").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="sql" height="130" width="130"></canvas>
+						<p>Sql</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("sql").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+				</div>
+				<!--/.row -->
+				<br>
+			</div>
+			<!--/.container -->
+		</div>
+		<!--/ #skillswrap -->
+		<!--技能描述end -->
+
+		<section id="contact" name="contact"></section>
+		<!--FOOTER DESCRIPTION -->
+		<div id="footwrap">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>CONTACT</h5>
+					</div>
+					<div class="col-lg-6">
+						<p>
+							<t>Email</t>
+							<br/> rsl140@qq.com
+							<br/>
+						</p>
+					</div>
+					<div class="col-lg-3">
+						<p>
+							<sm>SOCIAL LINKS</sm>
+						</p>
+						<p>
+							<a href="#"><i class="icon-dribbble"></i></a>
+							<a href="#"><i class="icon-twitter"></i></a>
+							<a href="#"><i class="icon-facebook"></i></a>
+							<a href="#"><i class="icon-linkedin"></i></a>
+							<a href="#"><i class="icon-apple"></i></a>
+
+						</p>
+					</div>
+				</div>
+				<!--/.row -->
+			</div>
+			<!--/.container -->
+		</div>
+		<!--/ #footer -->
+
+		<div id="c">
+			<div class="container">
+				<p>Created by SiLing
+				</p>
+
+			</div>
+		</div>
+
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="assets/js/bootstrap.js"></script>
+	</body>
+
+</html>
